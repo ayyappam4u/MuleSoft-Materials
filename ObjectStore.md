@@ -6,8 +6,8 @@ It can be useful for caching data, managing state across multiple flows or sessi
     If you want to use the default Object Store, you can specify a key for the Object Store without selecting or creating an Object Store reference for the Object Store operation, and without specifying an objectStore attribute in the XML element for the Object Store component.
     You use Anypoint Platform Runtime Manager to deploy Mule apps to CloudHub workers. 
     The key-value pairs (contents) are visible in Runtime Manager if you use persistent Object Store and key-value pairs are stored.
+        ![image](https://github.com/user-attachments/assets/ba868fc5-3d12-4d58-a41f-0ff865e7e88f)
 
-    ![image](https://github.com/user-attachments/assets/e83c5566-f54b-45f4-9cc0-fa7f4a318aaf)
 
 
 **Custom Object Store:**
