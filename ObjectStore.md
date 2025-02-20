@@ -8,6 +8,7 @@ It can be useful for caching data, managing state across multiple flows or sessi
     You use Anypoint Platform Runtime Manager to deploy Mule apps to CloudHub workers. 
     The key-value pairs (contents) are visible in Runtime Manager if you use persistent Object Store and key-value pairs are stored.
     The Key value pairs will reside in OS for 30 days by default unless until clear the OS or remove the keys
+    
         ![image](https://github.com/user-attachments/assets/ba868fc5-3d12-4d58-a41f-0ff865e7e88f)
 
 
