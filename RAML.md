@@ -66,9 +66,11 @@ Library fragment with Traits and Data Type:
 ![image](https://github.com/user-attachments/assets/aa73bad4-fa91-4247-85ca-6c0fa5c58d2f)
 
 **Security Schema**
-Security schema used in RAML to define what kind of security enabled for the API.
-	example: clientId, Client Secret, Oauth2.0,etc
- 
+Security schema used in RAML to define what kind of security enabled for the API. If we defined at root level then it will be applicable for all the resources(end points)
+example: clientId, Client Secret, Oauth2.0,etc
+
+![image](https://github.com/user-attachments/assets/8ff8acff-9964-40b3-953e-f417ea3cc450)
+
 
 [employee-api (2).zip](https://github.com/user-attachments/files/18896751/employee-api.2.zip)
 
