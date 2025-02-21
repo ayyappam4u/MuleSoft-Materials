@@ -65,8 +65,13 @@ Library fragment with Traits and Data Type:
 ![image](https://github.com/user-attachments/assets/5f191763-6784-4e01-87c3-a4940316e2be)
 ![image](https://github.com/user-attachments/assets/aa73bad4-fa91-4247-85ca-6c0fa5c58d2f)
 
+**Security Schema**
+Security schema used in RAML to define what kind of security enabled for the API.
+	example: clientId, Client Secret, Oauth2.0,etc
+ 
 
-[employee-api (1).zip](https://github.com/user-attachments/files/18876766/employee-api.1.zip)
+[employee-api (2).zip](https://github.com/user-attachments/files/18896751/employee-api.2.zip)
+
 
 [employee-with-rt-api.zip](https://github.com/user-attachments/files/18876775/employee-with-rt-api.zip)
 
