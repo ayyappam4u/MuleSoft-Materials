@@ -160,5 +160,20 @@ Intelligent Healing: CloudHub 2.0 monitors the replicas for problems and provide
 Zero-Downtime Updates: CloudHub 2.0 supports updating your applications at runtime so end users experience zero downtime. If the application uses the rolling update deployment model, CloudHub 2.0 keeps the old version of your application running while your application update is deploying. Your domain points to the old version of your application until the newly uploaded version is fully started. This allows you to keep servicing requests from your old application while the new version of your application is starting.
 Clustering: Clustering provides scalability, workload distribution, and added reliability to applications on CloudHub 2.0. These capabilities are powered by the scalable load-balancing service and replica scaleout features.
 
+Last Mile Security:
+
+  ![image](https://github.com/user-attachments/assets/e31c162a-b169-4250-88c5-6a2ec693f3e9)
+
+  Request is flowing from the outside world or public network or from user to ingress load balancer and then ingres load balancer sending request to mulesoft application.
+  So if Mulesoft application listening on HTTP listener then the traffic  supposed to go from Ingress load balancer to application on HTTP.
+  If Application is listening on HTTPS listner then the traffic will go to HTTPS since HTTPS is secure transport protocol so that means if the Request is flowing from the outside world the ingress load balancer
+  will send the traffic to application on HTTPS so that means it's end-end HTTPS which means this is what we called **last mile security.**
+  So this is the last mile between load balancer to application.
+  We need to enable the Last Mile Security Option while deploying application listening on HTTPS port.
+    ![image](https://github.com/user-attachments/assets/cff94048-7eb3-405e-b861-0aacbb07ae25)
+
+
+    
+
 
   
