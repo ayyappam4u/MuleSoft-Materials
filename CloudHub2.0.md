@@ -3,6 +3,10 @@ Isolation of application in Cloudhub2.0.
 CloudHub 2.0 is a multi-tenant environment (allowing multiple customers to share resources), the platform ensures that each customer’s applications and data are securely isolated 
 ensuring that one tenant’s application cannot interfere with the operations or data of another tenant.
 
+Features:
+
+    ![image](https://github.com/user-attachments/assets/814b1bca-ff83-45bd-bfd9-c275f78f49da)    
+  
 Key Benefits of CloudHub 2.0:
   >  Container based model(as opposed to vm based deployment in CH 1.0) so it enable applications spin up much faster. So application deployed and application become up and running the toatl time duration is much 
   lesser than CH1.0
