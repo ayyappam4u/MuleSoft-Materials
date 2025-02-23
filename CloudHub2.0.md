@@ -5,7 +5,8 @@ ensuring that one tenant’s application cannot interfere with the operations or
 
 Features:
 
-    ![image](https://github.com/user-attachments/assets/814b1bca-ff83-45bd-bfd9-c275f78f49da)    
+   ![image](https://github.com/user-attachments/assets/d3304f38-a74a-408c-92bc-0e1f39c2364f)
+     
   
 Key Benefits of CloudHub 2.0:
   >  Container based model(as opposed to vm based deployment in CH 1.0) so it enable applications spin up much faster. So application deployed and application become up and running the toatl time duration is much 
