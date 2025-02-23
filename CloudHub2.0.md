@@ -20,8 +20,8 @@ Where CH2 is better than CH1?
   .  Log enable/disable feature is by default.
   .  Application names need not be globally unique in ch2- it will append 6 digit unique id automatically and there shard id which is specific private space so every private space have another unique ID and that 
       will be managed by CH2.0 internally. 
-        example: myApp-uniqId.shard.usa-e1.cloudhub.io
-          myApp: Application name
+        example: myapp-uniqId.shard.usa-e1.cloudhub.io
+          myapp: Application name
           uniqId: A 6-digit value appended to the app name to ensure uniqueness
           shard: A 6-digit value associated with the space (private or shared) that the app is deployed to.
           usa-e1: region deployed application
